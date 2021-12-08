@@ -11,5 +11,3 @@ for line in data:
     if '\n' not in Counter(line):
         sum += 1
     sum += len(Counter(line)) - 1
-
-print(sum)
